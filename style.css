@@ -45,7 +45,19 @@ body{
   background-attachment: fixed;
 }
 #block1{
-  clear: both;
+  clear: right;
+  float: right;
+  width: 70%;
+  height: 70%;
+  border: 1px solid Black;
+  background-color: White;
+  margin-top: 100px;
+}
+#block2{
+  clear: left;
+  float: left;
+  width: 25%;
+  height: 70%;
   border: 1px solid Black;
   background-color: White;
   margin-top: 100px;
