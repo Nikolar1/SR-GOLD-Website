@@ -1,0 +1,92 @@
+p{
+  color: white;
+}
+h3{
+  color: white;
+}
+li{
+  color: white;
+}
+a:link{
+  text-decoration: none;
+  color: white;
+}
+a:visited{
+  color: white;
+}
+a:hover{
+  color: #FDD017;
+}
+a:active{
+  color: black;
+}
+#heder{
+  margin: -25px 0px 50px -10px;
+  padding: 20px;
+	background-color: #2C3539;
+	height: 50px;
+  position: fixed;
+  width: 100%;
+  border-bottom: 1px solid black;
+}
+#dugmehedpa{
+  float: left;
+  border-radius: 10px;
+  margin-top: 12px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+#dugmehedpatxt{
+  color: white;
+}
+#dugmehedp{
+
+  float: right;
+  border-radius: 10px;
+  margin-top: 12px;
+  margin-right: 50px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 0px;
+  padding-top: 0px;
+  vertical-align: top;
+}
+#dugmehedptxt{
+  color: white;
+  vertical-align: middle;
+}
+#naslov{
+  	text-align: center;
+	  color: #FDD017;
+}
+body{
+	background-color: black;
+  background-image: url("./pozadinagif");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  font-family: Quicksand
+}
+#block1{
+  clear: right;
+  float: right;
+  width: 70%;
+  height: 70%;
+  border: 1px solid Black;
+  background-color: #2C3539;
+  margin-top: 100px;
+  border-radius: 10px;
+  padding: 10px;
+}
+#block2{
+  clear: left;
+  float: left;
+  width: 20%;
+  height: 70%;
+  border: 1px solid Black;
+  background-color: #2C3539;
+  margin-top: 100px;
+  position: fixed;
+  border-radius: 10px;
+  padding: 10px;
+}

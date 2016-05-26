@@ -12,7 +12,7 @@ a:link{
   color: white;
 }
 a:visited{
-  
+  color: white;
 }
 a:hover{
   color: #FDD017;
@@ -61,7 +61,7 @@ a:active{
 }
 body{
 	background-color: black;
-  background-image: url("http://bestanimations.com/Books/old-spell-book-candle-mood-witch-magic-animated-gif.gif");
+  background-image: url("./pozadinagif");
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: fixed;
