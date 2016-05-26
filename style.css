@@ -1,29 +1,26 @@
 #heder{
   margin: -25px 0px 50px -10px;
   padding: 20px;
-	background-color: #0000A0;
+	background-color: white;
 	height: 50px;
   position: fixed;
   width: 100%;
 }
 #dugmehedpa{
-  border: 2px solid black;
-  background-color: #800000;
   float: left;
   border-radius: 10px;
-  margin-top: 10px;
+  margin-top: 12px;
   padding-left: 10px;
   padding-right: 10px;
 }
 #dugmehedpatxt{
-  color: #C0C0C0;
+  color: black;
 }
 #dugmehedp{
-  border: 2px solid black;
-  background-color: #800000;
+
   float: right;
   border-radius: 10px;
-  margin-top: 10px;
+  margin-top: 12px;
   margin-right: 50px;
   padding-left: 10px;
   padding-right: 10px;
@@ -32,11 +29,12 @@
   vertical-align: top;
 }
 #dugmehedptxt{
-  color: #C0C0C0;
+  color: black;
+  vertical-align: middle;
 }
 #naslov{
   	text-align: center;
-	  color: #FFA812;
+	  color: #FDD017;
 }
 body{
 	background-color: black;
