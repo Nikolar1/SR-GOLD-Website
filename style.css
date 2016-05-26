@@ -44,3 +44,8 @@ body{
   background-position: right top;
   background-attachment: fixed;
 }
+#block1{
+  clear: both;
+  border: 1px solid Black;
+  background-color: White;
+}
