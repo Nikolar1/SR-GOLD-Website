@@ -5,6 +5,7 @@
 	height: 50px;
   position: fixed;
   width: 100%;
+  border-bottom: 1px solid black;
 }
 #dugmehedpa{
   float: left;
