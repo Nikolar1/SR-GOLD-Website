@@ -1,7 +1,16 @@
+p{
+  color: white;
+}
+h3{
+  color: white;
+}
+li{
+  color: white;
+}
 #heder{
   margin: -25px 0px 50px -10px;
   padding: 20px;
-	background-color: white;
+	background-color: #2C3539;
 	height: 50px;
   position: fixed;
   width: 100%;
@@ -15,7 +24,7 @@
   padding-right: 10px;
 }
 #dugmehedpatxt{
-  color: black;
+  color: white;
 }
 #dugmehedp{
 
@@ -30,7 +39,7 @@
   vertical-align: top;
 }
 #dugmehedptxt{
-  color: black;
+  color: white;
   vertical-align: middle;
 }
 #naslov{
@@ -39,10 +48,11 @@
 }
 body{
 	background-color: black;
-  background-image: url("./afs.png");
+  background-image: url("./pozadinagif.gif");
   background-repeat: no-repeat;
-  background-position: right top;
+  background-position: center;
   background-attachment: fixed;
+  font-family: Quicksand
 }
 #block1{
   clear: right;
@@ -50,7 +60,7 @@ body{
   width: 70%;
   height: 70%;
   border: 1px solid Black;
-  background-color: White;
+  background-color: #2C3539;
   margin-top: 100px;
 }
 #block2{
@@ -59,6 +69,7 @@ body{
   width: 25%;
   height: 70%;
   border: 1px solid Black;
-  background-color: White;
+  background-color: #2C3539;
   margin-top: 100px;
+  position: fixed;
 }
