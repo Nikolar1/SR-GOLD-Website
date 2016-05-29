@@ -23,7 +23,7 @@ a:active{
 #heder{
   margin: -25px 0px 50px -10px;
   padding: 20px;
-	background-color: #2C3539;
+	background-color: rgb(0, 0, 120);
 	height: 50px;
   position: fixed;
   width: 100%;
@@ -39,9 +39,24 @@ a:active{
 #dugmehedpatxt{
   color: white;
 }
-#dugmehedp{
+#dugmehedko{
 
   float: right;
+  border-radius: 10px;
+  margin-top: 12px;
+  margin-right: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 0px;
+  padding-top: 0px;
+  vertical-align: top;
+}
+#dugmehedkotxt{
+  color: white;
+  vertical-align: middle;
+}
+#dugmehedp{
+  float: left;
   border-radius: 10px;
   margin-top: 12px;
   margin-right: 50px;
@@ -60,12 +75,12 @@ a:active{
 	  color: #FDD017;
 }
 body{
-	background-color: black;
-  background-image: url("./pozadinagif");
+	background-color: white;
+  background-image: url("../sd.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: fixed;
-  font-family: Quicksand
+  font-family: Quicksand;
 }
 #block1{
   clear: right;
@@ -73,7 +88,7 @@ body{
   width: 70%;
   height: 70%;
   border: 1px solid Black;
-  background-color: #2C3539;
+  background-color: rgb(255, 128, 0);
   margin-top: 100px;
   border-radius: 10px;
   padding: 10px;
@@ -84,7 +99,7 @@ body{
   width: 20%;
   height: 70%;
   border: 1px solid Black;
-  background-color: #2C3539;
+  background-color: rgb(255, 128, 0);
   margin-top: 100px;
   position: fixed;
   border-radius: 10px;
