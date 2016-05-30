@@ -9,13 +9,13 @@ li{
 }
 a:link{
   text-decoration: none;
-  color: white;
+  color: #FDD017;
 }
 a:visited{
   color: white;
 }
 a:hover{
-  color: #FDD017;
+  color: white;
 }
 a:active{
   color: black;
@@ -35,7 +35,7 @@ a:active{
 }
 body{
 	background-color: white;
-  background-image: url("./sd.jpg");
+  background-image: url("../sd.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: fixed;
@@ -44,7 +44,7 @@ body{
 #block1{
   clear: right;
   float: right;
-  width: 100%;
+  width: 98%;
   height: 70%;
   border: 1px solid Black;
   background-color: rgb(255, 128, 0);
