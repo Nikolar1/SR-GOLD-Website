@@ -1,33 +1,33 @@
 p{
-  color: white;
+  color: #A9A9A9;
 }
 h3{
-  color: white;
+  color: Black;
 }
 li{
-  color: white;
+  color: #A9A9A9;
 }
 a:link{
   text-decoration: none;
-  color: white;
+  color: #A9A9A9;
 }
 a:visited{
-  color: white;
+  color: #A9A9A9;
 }
 a:hover{
   color: #FDD017;
 }
 a:active{
-  color: black;
+  color: Black;
 }
-#heder{
+header{
   margin: -25px 0px 50px -10px;
   padding: 20px;
-	background-color: rgb(0, 0, 120);
+  background-color: rgb(255, 255, 255, 0.3);
 	height: 50px;
   position: fixed;
   width: 100%;
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid grey;
 }
 #dugmehedpa{
   float: left;
@@ -37,7 +37,7 @@ a:active{
   padding-right: 10px;
 }
 #dugmehedpatxt{
-  color: white;
+  color: #A9A9A9;
 }
 #dugmehedko{
 
@@ -52,7 +52,7 @@ a:active{
   vertical-align: top;
 }
 #dugmehedkotxt{
-  color: white;
+  color: #A9A9A9;
   vertical-align: middle;
 }
 #dugmehedc{
@@ -68,7 +68,7 @@ a:active{
   vertical-align: top;
 }
 #dugmehedctxt{
-  color: white;
+  color: #A9A9A9;
   vertical-align: middle;
 }
 #dugmehedp{
@@ -83,7 +83,7 @@ a:active{
   vertical-align: top;
 }
 #dugmehedptxt{
-  color: white;
+  color: #A9A9A9;
   vertical-align: middle;
 }
 #naslov{
@@ -92,8 +92,8 @@ a:active{
 }
 body{
 	background-color: white;
-  background-image: url("./sd.jpg");
-  background-repeat: no-repeat;
+  background-image: url("./light_checkered_tiles.png");
+  background-repeat: repeat;
   background-position: center;
   background-attachment: fixed;
   font-family: Quicksand;
@@ -101,12 +101,12 @@ body{
 #block1{
   clear: right;
   float: right;
+  background-color: rgb(255, 255, 255, 0.4);
+  color: Black;
   width: 70%;
   height: 70%;
   border: 1px solid Black;
-  background-color: rgb(255, 128, 0);
   margin-top: 100px;
-  border-radius: 10px;
   padding: 10px;
 }
 #block2{
@@ -115,9 +115,18 @@ body{
   width: 20%;
   height: 70%;
   border: 1px solid Black;
-  background-color: rgb(255, 128, 0);
+  background-color: rgb(255, 255, 255, 0.4);
   margin-top: 100px;
   position: fixed;
-  border-radius: 10px;
+  padding: 10px;
+}
+#block404{
+  clear: right;
+  float: right;
+  width: 97%;
+  height: 70%;
+  border: 1px solid Black;
+  background-color: rgb(255, 255, 255, 0.4);
+  margin-top: 100px;
   padding: 10px;
 }
