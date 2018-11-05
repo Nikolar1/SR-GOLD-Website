@@ -11,7 +11,7 @@
 	<meta name="description" content="Uvek prvi u svemu, 23. godine iskustva. Nudimo: Knjigovodstvene usluge, Poreski saveti, Elektronska banka, Pošta, Poljoprivredna apoteka">
 	<meta name="keywords" content="Poreski saveti, Elektronska banka, Pošta, Poljoprivredna apoteka, Knjigovodstvene usluge, SR Gold Irig, Gold, Vesna Radojcic "
 </head>
-<body>
+<body onload= "Pocetna()">
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
 	<img class = "img-circle" src="./SR-GOLD-Logo.svg" width="50px" height="auto"  >
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor03" aria-controls="navbarColor03" aria-expanded="false" aria-label="Toggle navigation" style="">
@@ -19,22 +19,7 @@
   </button>
 
   <div class="collapse navbar-collapse" id="navbarColor03">
-    <ul class="navbar-nav mr-auto">
-      <li class="nav-item active">
-        <a class="nav-link" href="#">Knjigovodstvena Agencija<span class="sr-only">(current)</span></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="./poljoprivredna/index.html">Poljoprivredna apoteka</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="./posta/index.html">Pošta</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="./cenovnik/index.html">Cenovnik</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="./kontakti/index.html">Kontakti</a>
-      </li>
+    <ul class="navbar-nav mr-auto" id= "lista">
     </ul>
   </div>
 </nav>
@@ -51,6 +36,7 @@
 		<li>e-banking</li>
   </ul>
 </div>
+<script src = ./index.js></script>
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
 	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
